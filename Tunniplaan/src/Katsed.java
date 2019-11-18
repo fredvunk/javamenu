@@ -1,3 +1,4 @@
+import java.util.List;
 public class Katsed {
     public static void main(String[] args) {
         // Loo Tund objekt
@@ -59,7 +60,11 @@ public class Katsed {
 
         Paev esmaspaev = new Paev();
         esmaspaev.kuupaev = "2019-11-18";
-        esmaspaev.tundideNimekiri = new ArrayList<Tund>();
+        ArrayList<Tund> tunnid = new ArrayList<Tund>();
+        tunnid.add(esimeneTund);
+        tunnid.add(teineTund);
+        tunnid.add(kolmasTund);
+        esmaspaev.tundideNimekiri = tunnid;
 
     }
 }
