@@ -8,13 +8,16 @@ public class Tund {
     public String ruum;
 
     @Override
-    public String toString(){
-        return "Tund: " + tund +
+    public String toString() {
+        return  "\nTund: " + tund +
                 "\nAlgus: " + algus +
                 "\nLopp: " + lopp +
                 "\nAine: " + aine +
                 "\nGrupp: " + grupp +
                 "\nOpetaja: " + opetaja +
-                "\nRuum: " + ruum ;
+                "\nRuum: " + ruum +
+                "\n=======================" +
+                "\n"
+                ;
     }
 }
